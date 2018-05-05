@@ -1,6 +1,6 @@
-# Laravel Frontend Asset Loader.
+# Laravel Frontend Template.
 
-Provides an ability to load frontend assets.
+Provides a Bootstrap based template.
 
 [![Latest Stable Version](https://poser.pugx.org/hnhdigital-os/laravel-frontend-template/v/stable.svg)](https://packagist.org/packages/hnhdigital-os/laravel-frontend-template) [![Total Downloads](https://poser.pugx.org/hnhdigital-os/laravel-frontend-template/downloads.svg)](https://packagist.org/packages/hnhdigital-os/laravel-frontend-template) [![Latest Unstable Version](https://poser.pugx.org/hnhdigital-os/laravel-frontend-template/v/unstable.svg)](https://packagist.org/packages/hnhdigital-os/laravel-frontend-template) [![License](https://poser.pugx.org/hnhdigital-os/laravel-frontend-template/license.svg)](https://packagist.org/packages/hnhdigital-os/laravel-frontend-template)
 
