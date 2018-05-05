@@ -1,0 +1,50 @@
+php: 
+  preset: recommended
+  risky: true
+  finder:
+    exclude:
+      - modules
+      - node_modules
+      - storage
+      - vendor
+    name: "*.php"
+    not-name: "*.blade.php"
+
+js:
+  tab-width: 2
+  use-tabs: false
+  print-width: 120
+  double-quotes: false
+  trailing-commas: es5
+  semicolons: true
+  arrow-parens: avoid
+  bracket-spacing: true
+  finder:
+    exclude:
+      - public
+      - modules
+      - node_modules
+      - storage
+      - vendor
+    name:
+      - "*.js"
+      - "*.jsx"
+    not-name:
+      - "*.min.js"
+
+css:
+  tab-width: 2
+  use-tabs: false
+  print-width: 120
+  double-quotes: false
+  finder:
+    exclude:
+      - public
+      - modules
+      - node_modules
+      - storage
+      - vendor
+    name:
+      - "*.css"
+      - "*.scss"
+      - "*.less"
