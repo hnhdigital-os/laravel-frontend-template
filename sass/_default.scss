@@ -1,0 +1,6 @@
+
+.panel-body {
+    @include p(1.5rem);
+    @include b(0.8rem, radius);
+    @include bg-c(#FFF);
+}
