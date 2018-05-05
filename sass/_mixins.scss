@@ -1,4 +1,3 @@
-
 @mixin m($val) {
   margin: $val;
 }
@@ -96,11 +95,11 @@
   vertical-align: $val;
 }
 
-@mixin b($val,$type:"") {
-  @if($type==""){
-    border:$val;
-  }@else{
-    border-#{$type}:$val;
+@mixin b($val, $type: '') {
+  @if ($type== '') {
+    border: $val;
+  } @else {
+    border-#{$type}: $val;
   }
 }
 
