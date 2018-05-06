@@ -30,7 +30,7 @@ class TemplateComposer
         }
 
         app('FrontendAsset')->container('AutoInit');
-        app('FrontendAsset')->controller(['js', 'css'], 'vendor.hnhdigital-os.laravel-frontend-template.view.template');
+
         if (env('APP_ENABLE_HTTP2', false)) {
             app('FrontendAsset')->http2();
         }
